@@ -39,7 +39,7 @@ ython q_learning.py
 
 ## 👥 成員
 組別：Nine Yin Manuel
-組員：Alan52254 </br>Hjc
+<br>組員：Alan52254, Hjc
 
 ## 📌 未來改進方向
 延伸多個路口協調控制
