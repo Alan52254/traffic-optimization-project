@@ -9,7 +9,9 @@
 - 分析訓練過程與結果，並與傳統固定時序策略比較效能
 
 ## 專案架構
+```
 traffic-optimization-project/ <br>├── training_logs/ # 儲存每回合訓練過程資料（CSV） <br> ├── training_log_episode_1.csv <br>└── ...<br> ├── traffic_log.csv # 統一車流記錄（如需額外使用）<br> ├── project_files/ # SUMO 模擬所需檔案 <br>├── osm.sumocfg <br> ├── osm.net.xml.gz <br>└── ...（包含 .rou.xml, .poly.xml.gz 等）<br> ├── q_learning.py # Q-Learning 實作主程式 <br>├── q_table.npy # 訓練完成後的 Q-table <br> ├── run.bat # 一鍵執行腳本 <br>├── build.bat # （可選）初始建構腳本 <br>└── README.md # 本說明文件
+```
 ##  系統說明
 
 - **狀態空間（State）**：12 條重要車道的車輛數量
